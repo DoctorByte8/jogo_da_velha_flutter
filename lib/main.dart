@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(
+    MaterialApp(
+      title: "Jogo da Velha",
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.blue)
+    )
+  );
 }
 
 class MainApp extends StatelessWidget {

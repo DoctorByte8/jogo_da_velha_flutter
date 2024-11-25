@@ -56,4 +56,5 @@ windows
 .metadata
 analysis_options.yaml
 pubspec.lock
-sudoku_flutter.iml
+pubspec.yaml
+jogo_da_velha_flutter.iml
